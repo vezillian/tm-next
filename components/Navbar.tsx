@@ -64,7 +64,7 @@ const Navbar = () => {
             <nav className={`${isMenuOpen ? 'block' : 'hidden'} md:block`}>
               <ul className="flex flex-col md:flex-row md:items-center md:space-x-6">
                 <li><Link href="/" className="text-white hover:text-gray-300">Home</Link></li>
-                <li><Link href="/about-us" className="text-white hover:text-gray-300">About Us</Link></li>
+                <li><Link href="/about" className="text-white hover:text-gray-300">About Us</Link></li>
                 <li><Link href="#clients" className="text-white hover:text-gray-300">Clients</Link></li>
                 <li><Link href="/pricing-plan" className="text-white hover:text-gray-300">Pricing</Link></li>
                 <li><Link href="/blog" className="text-white hover:text-gray-300">Blog</Link></li>

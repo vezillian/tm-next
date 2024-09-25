@@ -46,7 +46,7 @@ const About: React.FC = () => {
 
   return (
     <>
-      <section className="hero-area">
+      <section className="hero-area pt-40 pb-20">
         <div className="bg-blue-900 text-white py-20">
           <div className="relative overflow-hidden">
             <div className="absolute inset-0 z-0">

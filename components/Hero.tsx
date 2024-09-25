@@ -41,7 +41,9 @@ const Hero = () => {
   ];
 
   return (
-    <section className="relative bg-cover bg-center py-20 text-white" style={{ backgroundImage: "url('/images/hero-bg-1.png')" }}>
+    // <section className="relative bg-cover bg-center py-20 text-white" style={{ backgroundImage: "url('/images/hero-bg-1.png')" }}>
+    <section className="relative bg-cover bg-center py-20 text-white">
+      {/* <div className="absolute inset-0 bg-black opacity-50"></div> */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="container mx-auto relative z-10 mt-[-60px]">
         <div className="flex flex-col lg:flex-row items-center">

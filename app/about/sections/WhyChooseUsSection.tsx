@@ -48,11 +48,11 @@ const WhyChooseUsSection: React.FC = () => {
     },
   ];
   return (
-    <section className="services-area pt-10 pb-24 bg-gray-50" id="why-choose-us">
+    <section className="services-area pt-10 pb-24 bg-[#0C1433]" id="why-choose-us">
       <div className="container mx-auto">
         <div className="flex justify-center mb-14">
           <div className="w-full max-w-2xl">
-            <h2 className="text-center text-3xl font-bold">Why Choose Transmall Business</h2>
+            <h2 className="text-center text-3xl font-bold text-white">Why Choose Transmall Business</h2>
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">

@@ -44,7 +44,10 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black opacity-30"></div>
       <div className="container mx-auto relative z-10">
         <div className="flex flex-col lg:flex-row items-center">
-          <div className="lg:w-5/12 mb-10 lg:mb-0 lg:px-10 px-4" data-aos="fade-up">
+          <div
+            className="lg:w-5/12 mb-10 lg:mb-0 lg:px-10 px-4"
+            data-aos="fade-up"
+          >
             {/* <h1 className="text-3xl lg:text-5xl font-bold mb-4">
               Revolutionize Your Business with Our POS ERP Solution
             </h1>
@@ -70,9 +73,7 @@ const Hero = () => {
             </Link>
           </div>
 
-          <div className="lg:w-1/12">
-            
-          </div>
+          <div className="lg:w-1/12"></div>
 
           <div className="lg:w-5/12 w-full px-10">
             <div className="relative w-full h-[300px] sm:h-[400px] overflow-hidden rounded-lg shadow-lg">
@@ -92,10 +93,10 @@ const Hero = () => {
                     priority // Ensure lazy loading doesn't interfere with transitions
                   />
                   <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-80 p-4 text-center sm:text-left">
-                    <h4 className="text-white font-bold text-lg sm:text-xl mb-2">
+                    <h4 className="text-white font-extrabold text-lg sm:text-2xl mb-3 leading-tight">
                       {service.title}
                     </h4>
-                    <p className="text-white text-sm sm:text-base">
+                    <p className="text-white text-sm sm:text-lg leading-relaxed">
                       {service.description}
                     </p>
                   </div>

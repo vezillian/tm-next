@@ -56,7 +56,7 @@ const challenges: Challenge[] = [
 const ChallengesWeSolveSection: React.FC = () => {
 
     return (
-        <section className="services-area pt-10 bg-blue-900 pb-24" id="solutions">
+        <section className="services-area pt-10 bg-[#150F5B] pb-24" id="solutions">
             <div className="container mx-auto">
                 <div className="flex justify-center mb-14">
                     <div className="w-full max-w-2xl">

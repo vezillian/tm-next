@@ -37,7 +37,7 @@ const Hero = () => {
     }, 2000); // Change slide every 5 seconds
 
     return () => clearInterval(timer);
-  }, []);
+  }, [services.length]);
 
   return (
     <section className="relative bg-cover bg-center pt-40 pb-20 text-white">

@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react'
+import React from 'react'
 import { FC } from 'react';
 import Image from 'next/image';
 
@@ -14,12 +14,14 @@ const ChallengesWeSolveCard: FC<ChallengeCardProps> = ({ imageSrc, bgColor,title
   return (
     <div className="block-style-two block-icon-animate flex mb-8 p-6 bg-white shadow-lg rounded-lg" data-aos="fade-up" data-aos-delay={delay}>
       <div className="icon flex-shrink-0">
+
       <Image
           src={imageSrc}
           alt={title}
-          width={80}  
+          width={80}
           height={80}
-          className="rounded-full"
+          className={`rounded-full ${bgColor} rounded`}
+          
         />
       </div>
       <div className="text ml-4">
@@ -31,7 +33,7 @@ const ChallengesWeSolveCard: FC<ChallengeCardProps> = ({ imageSrc, bgColor,title
     </div>
   )
 }
-
+ 
 export default ChallengesWeSolveCard
 
 

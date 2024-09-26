@@ -48,7 +48,7 @@ const WhyChooseUsSection: React.FC = () => {
     },
   ];
   return (
-    <section className="services-area pt-10 pb-24 bg-white" id="why-choose-us">
+    <section className="services-area pt-10 pb-24 bg-gray-50" id="why-choose-us">
       <div className="container mx-auto">
         <div className="flex justify-center mb-14">
           <div className="w-full max-w-2xl">

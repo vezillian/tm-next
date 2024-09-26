@@ -1,6 +1,4 @@
-import { ReactNode } from 'react'
 import ChallengesWeSolveCard from '../components/ChallengesWeSolveCard';
-import { ChartNoAxesCombined } from 'lucide-react';
 
 export interface Challenge {
     imageSrc: string;

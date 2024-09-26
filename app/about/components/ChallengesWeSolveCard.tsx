@@ -12,7 +12,7 @@ interface ChallengeCardProps {
 
 const ChallengesWeSolveCard: FC<ChallengeCardProps> = ({ imageSrc, bgColor,title, description, delay }) => {
   return (
-    <div className="block-style-two block-icon-animate flex mb-8 p-6 bg-white shadow-lg rounded-lg" data-aos="fade-up" data-aos-delay={delay}>
+    <div className="block-style-two block-icon-animate flex mb-2 p-6 bg-white shadow-sm rounded-sm" data-aos="fade-up" data-aos-delay={delay}>
       <div className="icon flex-shrink-0">
 
       <Image
@@ -21,7 +21,6 @@ const ChallengesWeSolveCard: FC<ChallengeCardProps> = ({ imageSrc, bgColor,title
           width={80}
           height={80}
           className={`rounded-full ${bgColor} rounded`}
-          
         />
       </div>
       <div className="text ml-4">

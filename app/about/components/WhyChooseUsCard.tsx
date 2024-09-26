@@ -11,13 +11,13 @@ interface WhyChooseUsProps {
 const WhyChooseUsCard: React.FC<WhyChooseUsProps> = ({ imageSrc, title, description, delay }) => {
 
   return (
-    <div className="block-style-two block-icon-animate flex mb-8 p-6 bg-white shadow-lg rounded-lg" data-aos="fade-up" data-aos-delay={delay}>
+    <div className="block-style-two block-icon-animate flex mb-2 p-6 bg-white shadow-sm rounded-sm" data-aos="fade-up" data-aos-delay={delay}>
       <div className="icon flex-shrink-0">
         <Image
           src={imageSrc}
           alt={title}
-          width={80}  // You can specify the image size
-          height={80}  // Provide appropriate width and height
+          width={80}
+          height={80}
           className="rounded-full"
         />
       </div>

@@ -20,7 +20,7 @@ const Hero = () => {
       image: "/images/analytics.jpg",
     },
     {
-      title: "Customer Management",
+      title: "Customer Relationship Management",
       description: "Build customer profiles and track purchasing history.",
       image: "/images/customer.jpg",
     },

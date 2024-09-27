@@ -150,16 +150,7 @@ const Services = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [slidesToShow, setSlidesToShow] = useState(3);
 
-  useEffect(() => {
-    const handleResize = () => {
-      setSlidesToShow(window.innerWidth < 640 ? 1 : 3);
-    };
 
-    handleResize();
-    window.addEventListener("resize", handleResize);
-
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -180,6 +171,17 @@ const Services = () => {
       (prevIndex) => (prevIndex + 1) % (servicesData.length - slidesToShow + 1)
     );
   };
+
+  useEffect(() => {
+    const handleResize = () => {
+      setSlidesToShow(window.innerWidth < 640 ? 1 : 3);
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, [handleNext]);
 
   return (
     <section className="pb-8" id="clients">

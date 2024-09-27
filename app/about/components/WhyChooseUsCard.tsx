@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image';
-import { motion } from 'framer-motion';
 
 interface WhyChooseUsProps {
   imageSrc: string;
@@ -8,29 +7,6 @@ interface WhyChooseUsProps {
   description: string;
   delay: string;
 }
-
-// const WhyChooseUsCard: React.FC<WhyChooseUsProps> = ({ imageSrc, title, description, delay }) => {
-
-//   return (
-//     <div className="block-style-two block-icon-animate flex mb-2 p-6 bg-white shadow-sm rounded-sm" data-aos="fade-up" data-aos-delay={delay}>
-//       <div className="icon flex-shrink-0">
-//         <Image
-//           src={imageSrc}
-//           alt={title}
-//           width={80}
-//           height={80}
-//           className="rounded-full"
-//         />
-//       </div>
-//       <div className="text ml-4">
-//         <h3 className="title text-xl font-semibold my-2">
-//           <a className="text-xl my-2 text-black" href="#">{title}</a>
-//         </h3>
-//         <p className='text-black'>{description}</p>
-//       </div>
-//     </div>
-//   )
-// }
 
 const WhyChooseUsCard: React.FC<WhyChooseUsProps> = ({ imageSrc, title, description }) => {
   return (

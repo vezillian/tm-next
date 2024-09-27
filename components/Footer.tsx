@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from 'next/image';
+import Image from "next/image";
 
 import {
   Facebook,
@@ -21,12 +21,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* About Section */}
           <div>
-          <Image
-          src="/images/logo-icon-transmall.svg"
-          alt="Transmall Logo"
-
-          className="h-12 w-auto mb-6"
-        />
+            <Image
+              src="/images/logo-icon-transmall.svg"
+              alt="Transmall Logo"
+              width={65}
+              height={65}
+              className="h-12 w-auto mb-6"
+            />
             <p className="mb-6 text-base leading-relaxed">
               We provide cutting-edge POS ERP solutions to help businesses
               thrive in the digital age.

@@ -218,7 +218,7 @@ const PricingCard: FC<PricingCardProps> = ({ title, price, features, isPopular }
   >
     <div className="p-8">
       <h3 className="text-2xl font-bold text-white mb-2">{title}</h3>
-      <div className="text-indigo-300 mb-6">
+      <div className="text-white mb-6">
         <span className="text-4xl font-bold">KES {price}</span>
         <span className="text-xl">/month</span>
       </div>
@@ -266,7 +266,7 @@ const Pricing: FC = () => {
   ];
 
   return (
-    <section className="bg-[#0C1433] text-white pt-40 pb-20 px-4">
+    <section className="bg-[#192966] text-white pt-40 pb-20 px-4">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -275,7 +275,7 @@ const Pricing: FC = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl font-bold mb-4">Choose Your Perfect Plan</h2>
-          <p className="text-xl text-indigo-300">Tailored solutions for your business needs</p>
+          <p className="text-xl text-white">Tailored solutions for your business needs</p>
         </motion.div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {plans.map((plan, index) => (

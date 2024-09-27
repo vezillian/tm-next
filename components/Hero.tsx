@@ -48,29 +48,23 @@ const Hero = () => {
             className="lg:w-5/12 mb-10 lg:mb-0 lg:px-10 px-4"
             data-aos="fade-up"
           >
-            {/* <h1 className="text-3xl lg:text-5xl font-bold mb-4">
-              Revolutionize Your Business with Our POS ERP Solution
+            <h1 className="text-xl lg:text-2xl font-bold mb-6 leading-tight">
+              Welcome to Transmall Business: Empowering MSMEs with Smart Solutions
             </h1>
-            <h5 className="text-lg lg:text-xl mb-6">
-              Manage inventory, boost sales, and streamline operations all in one powerful platform.
-            </h5>
-            <Link href="/login_signup" className="bg-white text-black py-2 px-6 rounded-full hover:bg-gray-200 transition duration-300">
-              Start Free Trial
-            </Link> */}
-
-            <h1 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight">
-              Revolutionize Your Business with Our POS ERP Solution
+            <h1 className="text-xl lg:text-xl font-bold mb-6 leading-tight">
+              Transform Your Business Operations Today!
             </h1>
-            <h5 className="text-xl mb-8 text-gray-300 leading-relaxed">
-              Manage inventory, boost sales, and streamline operations all in
-              one powerful platform.
+            <h5 className="text-base font-semi-bold mb-8 text-gray-300 leading-relaxed">
+              Are you a Duka owner, supermarket manager, pharmacy operator, or a business in the service, trade, or manufacturing sectors seeking to streamline your operations and enhance profitability? At Transmall Business, we specialise in delivering robust data and AI-driven tools that help businesses like yours to harness the power of data for growth. Our innovative products are designed to digitise your key systems and operations, making your business more efficient and sustainable.
+              <Link
+                href="/login_signup"
+                className="font-semibold text-yellow-500 pr-2"
+                // className="font-semibold bg-gradient-to-r from-yellow-400 to-yellow-600 text-white px-2 py-2 rounded-lg text-sm"
+              >
+                Join 
+              </Link>
+               the ranks of successful MSMEs reaping the benefits of data-driven decision-making.
             </h5>
-            <Link
-              href="/login_signup"
-              className="inline-block bg-white text-gray-900 font-semibold py-3 px-8 rounded-full hover:bg-gray-200 transition duration-300 transform hover:scale-105"
-            >
-              Start Free Trial
-            </Link>
           </div>
 
           <div className="lg:w-1/12"></div>
@@ -80,9 +74,8 @@ const Hero = () => {
               {services.map((service, index) => (
                 <div
                   key={index}
-                  className={`absolute top-0 left-0 w-full h-full transition-opacity duration-500 ${
-                    index === currentSlide ? "opacity-100" : "opacity-0"
-                  }`}
+                  className={`absolute top-0 left-0 w-full h-full transition-opacity duration-500 ${index === currentSlide ? "opacity-100" : "opacity-0"
+                    }`}
                 >
                   <Image
                     src={service.image}

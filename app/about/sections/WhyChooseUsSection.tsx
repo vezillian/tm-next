@@ -12,7 +12,7 @@ const WhyChooseUsSection: React.FC = () => {
   const services: Service[] = [
     {
       title: "All-in-One Solution",
-      description: "Integrated POS and ERP platform consolidates your sales tracking, inventory management, and financial reporting into one seamless experience.",
+      description: "Integrated data-collecting platform that consolidates your sales tracking, inventory management, and financial reporting into one seamless experience.",
       imageSrc: "/images/all.png",
       delay: "30",
     },

@@ -137,7 +137,7 @@ const Services = () => {
   return (
     <section className="pb-8" id="clients">
       <div className="container mx-auto">
-        <div className="text-center my-16 px-4">
+        <div className="text-center my-4 px-4">
           <span className="inline-block mb-2 text-sm capitalize font-bold tracking-wider text-indigo-600 bg-indigo-100 px-3 py-2 rounded-full">
             Powerful Features to Grow Your Business
           </span>

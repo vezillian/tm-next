@@ -11,7 +11,7 @@ const Newsletter = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-white text-3xl sm:text-4xl font-extrabold mb-8 leading-tight">
-          Don't Miss Out! Subscribe for Exclusive Insights to Stay Ahead!"
+          Don&apos;t Miss Out! Subscribe for Exclusive Insights to Stay Ahead!
           </h2>
           <form className="mt-8">
             <div className="flex flex-col sm:flex-row gap-4">

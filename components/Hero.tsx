@@ -58,7 +58,7 @@ const Hero = () => {
               Are you a Duka owner, supermarket manager, pharmacy operator, or a business in the service, trade, or manufacturing sectors seeking to streamline your operations and enhance profitability? At Transmall Business, we specialise in delivering robust data and AI-driven tools that help businesses like yours to harness the power of data for growth.
               <Link
                 href="/login_signup"
-                className="font-semibold text-yellow-500 pr-2"
+                className="font-semibold text-yellow-500 px-2"
                 // className="font-semibold bg-gradient-to-r from-yellow-400 to-yellow-600 text-white px-2 py-2 rounded-lg text-sm"
               >
                 Join 

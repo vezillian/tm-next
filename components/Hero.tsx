@@ -41,7 +41,7 @@ const Hero = () => {
 
   return (
     <section className="relative bg-cover bg-center pt-40 pb-20 text-white">
-      <div className="absolute inset-0 bg-#192966"></div>
+      <div className="absolute inset-0 bg-[#192966]"></div>
       <div className="container mx-auto relative z-10">
         <div className="flex flex-col lg:flex-row items-center">
           <div
@@ -85,7 +85,7 @@ const Hero = () => {
                     className="rounded-lg"
                     priority // Ensure lazy loading doesn't interfere with transitions
                   />
-                  <div className="absolute bottom-0 left-0 right-0 bg-#0C1433 p-4 text-center sm:text-left">
+                  <div className="absolute bottom-0 left-0 right-0 bg-[#0C1433] p-4 text-center sm:text-left">
                     <h4 className="text-white font-extrabold text-lg sm:text-2xl mb-3 leading-tight">
                       {service.title}
                     </h4>

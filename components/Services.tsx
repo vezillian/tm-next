@@ -7,98 +7,106 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const servicesData = [
   {
     title: "Agriculture",
-    description:
-      "Manage inventory, sales, and track orders for agricultural supplies with ease.",
+    description: "Improve farming operations with real-time inventory tracking and automated reordering.",
     image: "/images/agriculture.jpg",
     link: "/",
   },
   {
     title: "Transport",
-    description:
-      "Streamline ticket sales and track customer bookings efficiently.",
+    description: "Optimize logistics and fleet management with real-time inventory visibility and automated reordering.",
     image: "/images/transport.jpg",
     link: "/",
   },
   {
     title: "Wholesale",
-    description:
-      "Manage bulk sales, track stock, and optimize wholesale operations.",
+    description: "Gain insights into your best-selling products and peak hours to drive business growth.",
     image: "/images/wholesale.jpg",
     link: "/",
   },
   {
     title: "Finance",
-    description:
-      "Simplify financial transactions, monitor sales, and track payment histories.",
+    description: "Build comprehensive customer profiles and track purchasing history to improve financial decision-making.",
     image: "/images/finance.jpg",
     link: "/",
   },
   {
     title: "Automotive",
-    description:
-      "Manage car parts inventory and customer payments effectively.",
+    description: "Streamline inventory management and enhance customer experiences in the automotive industry.",
     image: "/images/automotive.jpg",
     link: "/",
   },
   {
+    title: "Services",
+    description: "Optimize service delivery and enhance customer relationships with data-driven insights.",
+    image: "/images/services.jpg",
+    link: "/",
+  },
+  {
+    title: "Education",
+    description: "Improve educational resource planning and student experiences with data-driven decision-making.",
+    image: "/images/education.jpg",
+    link: "/",
+  },
+  {
+    title: "Food & Beverage",
+    description: "Enhance supply chain efficiency and customer satisfaction in the food and beverage industry.",
+    image: "/images/food.jpg",
+    link: "/",
+  },
+  {
+    title: "Manufacturing",
+    description: "Streamline production processes and inventory management for improved operational efficiency.",
+    image: "/images/manufacturing.jpg",
+    link: "/",
+  },
+  {
+    title: "Technology",
+    description: "Leverage data insights to drive innovation and improve customer experiences in the tech industry.",
+    image: "/images/technology.jpg",
+    link: "/",
+  },
+  {
+    title: "Construction & Real Estate",
+    description: "Optimize project management and enhance customer relationships in the construction and real estate sectors.",
+    image: "/images/real-estate.jpg",
+    link: "/",
+  },
+  {
+    title: "Retail",
+    description: "Build comprehensive customer profiles and track purchasing history to improve retail operations.",
+    image: "/images/retail.jpg",
+    link: "/",
+  },
+  {
+    title: "Healthcare",
+    description: "Enhance patient care and operational efficiency in the healthcare industry with data-driven insights.",
+    image: "/images/healthcare.jpg",
+    link: "/",
+  },
+  {
+    title: "Hospitality",
+    description: "Improve guest experiences and optimize operations in the hospitality industry.",
+    image: "/images/hospitality.jpg",
+    link: "/",
+  },
+  {
     title: "Other",
-    description:
-      "Customizable POS solutions to fit your unique business needs.",
+    description: "Leverage data-driven insights to improve operations and customer experiences across various industries.",
     image: "/images/other.jpg",
     link: "/",
-  },
-  {
-    title: "Automotive",
-    description:
-      "Manage car parts inventory and customer payments effectively.",
-    image: "/images/automotive.jpg",
-    link: "/",
-  },
-  {
-    title: "Other",
-    description:
-      "Customizable POS solutions to fit your unique business needs.",
-    image: "/images/other.jpg",
-    link: "/",
-  },
-  {
-    title: "Automotive",
-    description:
-      "Manage car parts inventory and customer payments effectively.",
-    image: "/images/automotive.jpg",
-    link: "/",
-  },
-  {
-    title: "Other",
-    description:
-      "Customizable POS solutions to fit your unique business needs.",
-    image: "/images/other.jpg",
-    link: "/",
-  },
-  {
-    title: "Automotive",
-    description:
-      "Manage car parts inventory and customer payments effectively.",
-    image: "/images/automotive.jpg",
-    link: "/",
-  },
-  {
-    title: "Other",
-    description:
-      "Customizable POS solutions to fit your unique business needs.",
-    image: "/images/other.jpg",
-    link: "/",
-  },
+  }
 ];
+
 
 const Services = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [slidesToShow, setSlidesToShow] = useState(3);
 
+
   useEffect(() => {
     const timer = setInterval(() => {
       handleNext();
-    }, 2000);
+    }, 4000);
 
     return () => clearInterval(timer);
   }, [currentIndex, slidesToShow]);
@@ -161,7 +169,7 @@ const Services = () => {
                       width={400}
                       height={400}
                     />
-                    <div className="p-5 bg-black bg-opacity-90 mb-0 h-full">
+                    <div className="p-5 bg-[#0C1433] mb-0 h-full">
                       <h4 className="text-lg sm:text-xl font-extrabold text-white mb-3 leading-snug">
                         {service.title}
                       </h4>

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const AboutUsSection = () => {
   return (
-    <section className="bg-[#0C1433] py-16 px-4 min-h-screen flex items-center justify-center" id="about-us">
+    <section className="bg-[#192966] py-16 px-4 min-h-screen flex items-center justify-center" id="about-us">
       <div className="max-w-4xl w-full">
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
           <div className="p-8 md:p-12">

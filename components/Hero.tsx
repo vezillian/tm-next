@@ -55,7 +55,7 @@ const Hero = () => {
               Transform Your Business Operations Today!
             </h1>
             <h5 className="text-base font-semi-bold mb-8 text-gray-300 leading-relaxed">
-              Are you a Duka owner, supermarket manager, pharmacy operator, or a business in the service, trade, or manufacturing sectors seeking to streamline your operations and enhance profitability? At Transmall Business, we specialise in delivering robust data and AI-driven tools that help businesses like yours to harness the power of data for growth. Our innovative products are designed to digitise your key systems and operations, making your business more efficient and sustainable.
+              Are you a Duka owner, supermarket manager, pharmacy operator, or a business in the service, trade, or manufacturing sectors seeking to streamline your operations and enhance profitability? At Transmall Business, we specialise in delivering robust data and AI-driven tools that help businesses like yours to harness the power of data for growth.
               <Link
                 href="/login_signup"
                 className="font-semibold text-yellow-500 pr-2"

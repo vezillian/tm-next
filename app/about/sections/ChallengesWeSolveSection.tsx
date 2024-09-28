@@ -40,7 +40,7 @@ const challenges: Challenge[] = [
     {
         imageSrc:  '/images/realtime.webp',
         title: 'Real-time Data',
-        description: 'Make informed decisions with up-to-the-minute insights into your business\'s performance, allowing you to adapt quickly to changing market conditions.',
+        description: 'Make informed decisions with up-to-the-minute insights into your business\' performance, allowing you to adapt quickly to changing market conditions.',
         bgColor: 'bg-blue-900',
         delay: 60,
     },

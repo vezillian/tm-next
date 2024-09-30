@@ -29,8 +29,7 @@ const Footer = () => {
               className="h-12 w-auto mb-6"
             />
             <p className="mb-6 text-base leading-relaxed">
-              We provide cutting-edge POS ERP solutions to help businesses
-              thrive in the digital age.
+              At Transmall Business, we believe that data is the key to unlocking success for your business. Our mission is to empower you by providing innovative tools that simplify the collection of business data, enhance stakeholder engagement, and drive meaningful insights.
             </p>
             <div className="flex space-x-5">
               {[
@@ -96,7 +95,7 @@ const Footer = () => {
               {[
                 "Inventory Management",
                 "Sales Analytics",
-                "Customer Management",
+                "Customer Relationship Management",
                 "Multi-store Support",
               ].map((item) => (
                 <li key={item}>
@@ -151,7 +150,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-12 pt-8 border-t border-gray-700 text-center">
           <p className="text-sm tracking-wider">
-            &copy; {currentYear} Transmall. All Rights Reserved.
+            &copy; {currentYear} Transmall Business. All Rights Reserved.
           </p>
         </div>
       </div>

@@ -158,7 +158,7 @@ const Faq: FC = () => {
               </h2>
               <h5 className="text-lg">
                 Join thousands of satisfied customers who have streamlined their
-                operations with our POS ERP solution.
+                operations with our data-driven strategies.
               </h5>
             </div>
             <div className="lg:w-1/3">
@@ -166,7 +166,7 @@ const Faq: FC = () => {
                 href="/login_signup"
                 className="bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-3 rounded-lg"
               >
-                Start Free Trial
+                Join
               </a>
             </div>
           </div>

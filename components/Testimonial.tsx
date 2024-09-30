@@ -72,7 +72,7 @@ const Testimonial: React.FC = () => {
 
   const getVisibleTestimonials = () => {
     const visibleCount = 3;
-    let visibleTestimonials = [];
+    const visibleTestimonials = [];
     for (let i = 0; i < visibleCount; i++) {
       const index = (currentIndex + i) % testimonials.length;
       visibleTestimonials.push(testimonials[index]);

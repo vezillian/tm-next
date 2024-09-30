@@ -11,68 +11,44 @@ interface Testimonial {
 
 const testimonials: Testimonial[] = [
   {
-    name: "Danson Muchemi",
-    position: "Founder & CEO",
-    company: "JamboPay",
-    image: "/images/test1.jpeg",
+    name: "Emily R.",
+    position: "CEO",
+    company: "Tech Innovations",
+    image: "/images/test1.jpg",
     content:
-      "Transmall's ERP system has revolutionized our payment processing. Their 24/7 support ensures we're always operational.",
+      "Transmall Business has transformed the way we gather and analyze data. Their AI-driven tools are incredibly intuitive and have provided us with insights that were previously hidden. Our decision-making process is now faster and more informed, leading to a significant boost in our overall productivity. Highly recommended!",
   },
   {
-    name: "Agree Ogendo",
-    position: "Founder",
-    company: "Green Initiative",
-    image: "/images/test2.jpeg",
+    name: "James T.",
+    position: "Marketing Director",
+    company: "Green Solutions",
+    image: "/images/test4.jpg",
     content:
-      "The inventory management module in Transmall's system has helped us reduce waste and optimize our supply chain.",
+      "As a marketing professional, I rely heavily on data to drive our strategies. Transmall's platform has been a game-changer for us. The ease of collecting business data and the depth of insights we can extract is phenomenal. We've seen a measurable improvement in our campaign performance since implementing their solutions.",
   },
   {
-    name: "Daniel Kimani",
-    position: "IT Director",
-    company: "The Food and Agriculture Org.",
-    image: "/images/test3.jpeg",
-    content:
-      "Transmall's ERP solution seamlessly integrated with our existing systems, improving our overall operational efficiency.",
-  },
-  {
-    name: "Sarah Muthoni",
+    name: "Samantha L.",
     position: "Operations Manager",
-    company: "Retail Chain Co.",
-    image: "/images/test4.jpeg",
+    company: "Retail World",
+    image: "/images/test2.jpg",
     content:
-      "The real-time reporting feature of Transmall's system has been invaluable for making data-driven decisions quickly.",
+      "I can't praise Transmall Business enough! Their data collection tools are not only powerful but also user-friendly. The insights we've gained have allowed us to streamline operations and improve customer satisfaction dramatically. We've finally got a handle on our data, and it's all thanks to Transmall!",
   },
   {
-    name: "John Ochieng",
-    position: "Finance Director",
-    company: "Tech Solutions Ltd",
-    image: "/images/test5.jpeg",
+    name: "Michael H.",
+    position: "Founder",
+    company: "StartSmart Solutions",
+    image: "/images/test5.jpg",
     content:
-      "Transmall's ERP has streamlined our financial processes, making audits and compliance a breeze.",
+      "Transmall Business has been a vital partner in our growth journey. Their AI-driven insights have helped us identify key trends in our industry, leading to strategic opportunities that we would have otherwise missed. The support team is fantastic; they ensure we get the most out of their tools.",
   },
   {
-    name: "Felix Ongeri",
-    position: "Finance Director",
-    company: "Tech Solutions Ltd",
-    image: "/images/test6.jpeg",
+    name: "Lisa K.",
+    position: "CFO",
+    company: "FinanceWise",
+    image: "/images/test3.jpg",
     content:
-      "With Transmall's ERP, managing our sales and inventory has become seamless, giving us real-time insights into our financial operations.",
-  },
-  {
-    name: "David Kihara",
-    position: "Finance Director",
-    company: "Tech Solutions Ltd",
-    image: "/images/test7.jpeg",
-    content:
-      "Transmall's ERP has improved our stock control and financial reporting, reducing errors and saving time on manual reconciliations.",
-  },
-  {
-    name: "Christine Mwangi",
-    position: "Finance Director",
-    company: "Tech Solutions Ltd",
-    image: "/images/test8.jpeg",
-    content:
-      "Thanks to Transmall's ERP, we have better control over our cash flow, making it easier to track daily transactions and generate accurate financial reports.",
+      "Working with Transmall Business has been one of the best decisions we've made. The data-driven insights have not only improved our financial forecasting but also helped us make data-led decisions that align with our business goals. Their tools are innovative, and the results speak for themselves!",
   },
 ];
 

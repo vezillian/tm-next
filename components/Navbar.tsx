@@ -29,9 +29,9 @@ const Navbar = () => {
 
   return (
     <header className="bg-[#192966] fixed top-0 w-full z-50 py-3 font-sans">
-      <div className="container mx-auto px-4">
+      <div className="container sm:ml-0 md:ml-0 lg:ml-0 xl:ml-28 px-4">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="flex items-center">
+          <Link href="/" className="flex items-center mr-24">
             <Image
               src="/images/logo-icon-transmall.svg"
               width={65}
@@ -43,8 +43,8 @@ const Navbar = () => {
           </Link>
 
           {/* Desktop menu */}
-          <nav className="hidden xl:flex items-center justify-between flex-grow ml-60">
-            <ul className="flex space-x-20">
+          <nav className="hidden xl:flex items-center justify-between flex-grow ml-20 mr-60">
+            <ul className="flex space-x-12">
               <li>
                 <Link
                   href="/"

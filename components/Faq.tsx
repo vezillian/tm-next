@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { FC, useState } from "react";
 import { ChevronLeft, ChevronRight, Plus, Minus } from "lucide-react";
+import Testimonial from '../components/Testimonial';
 
 const accordionData = [
   {
@@ -172,8 +173,10 @@ const Faq: FC = () => {
         </div>
       </section>
 
+      <Testimonial />
+
       {/* FAQ Section */}
-      <section className="pt-28 pb-16 bg-[#192966]">
+      <section className="pt-4 pb-16 bg-[#192966]">
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center">
             <div className="lg:w-1/2 mb-10 lg:mb-0">

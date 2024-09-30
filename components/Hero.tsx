@@ -52,8 +52,11 @@ const Hero = () => {
               Revolutionize Your Business with Our POS ERP Solution
             </h1>
             <h5 className="text-xl mb-8 text-gray-300 leading-relaxed">
-              Manage inventory, boost sales, and streamline operations all in
-              one powerful platform.
+              Transmall Business offers data and AI-driven tools to help
+              businesses streamline operations and improve profitability. Their
+              solutions digitize key systems, enhancing efficiency and
+              sustainability. Join successful MSMEs leveraging data for growth
+              and informed decision-making.
             </h5>
             <Link
               href="/login_signup"

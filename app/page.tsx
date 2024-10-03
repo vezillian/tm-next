@@ -12,7 +12,6 @@ export default function Home() {
       <Services />
       <Faq />
       <Newsletter />
-      {/* <Testimonial /> */}
     </main>
   );
 }

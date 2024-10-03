@@ -127,7 +127,7 @@ const Faq: FC = () => {
   return (
     <>
       {/* CTA Section */}
-      <section className="bg-[#150A5C] pt-24 pb-16 relative">
+      <section className="bg-[#192966] pt-24 pb-16 relative">
         <div className="absolute top-0 left-0">
           <span className="block" style={{ transform: "translateZ(0)" }}>
             <Image
@@ -176,7 +176,7 @@ const Faq: FC = () => {
       <Testimonial />
 
       {/* FAQ Section */}
-      <section className="pt-4 pb-16 bg-[#192966]">
+      <section className="pt-4 pb-16 bg-[#fff]">
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center">
             <div className="lg:w-1/2 mb-10 lg:mb-0">
@@ -189,7 +189,7 @@ const Faq: FC = () => {
               />
             </div>
 
-            <div className="lg:w-1/2 text-white">
+            <div className="lg:w-1/2 text-black">
               <h2 className="text-3xl font-bold mb-8 text-center">
                 Frequently Asked Questions
               </h2>
@@ -199,7 +199,7 @@ const Faq: FC = () => {
                   <div
                     key={index}
                     className={`border rounded-lg ${
-                      activeIndex === index ? "bg-gray-700" : "bg-[#0C1433]"
+                      activeIndex === index ? "bg-gray-700" : "bg-[#192966]"
                     }`}
                   >
                     <button

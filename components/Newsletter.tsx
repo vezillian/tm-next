@@ -2,7 +2,7 @@ import React from "react";
 
 const Newsletter = () => {
   return (
-    <section className="bg-[#150A5C] relative overflow-hidden py-16 sm:py-24">
+    <section className="bg-[#192966] relative overflow-hidden py-16 sm:py-24">
       {/* Decorative shapes */}
       <div className="absolute top-0 left-0 w-40 h-40 bg-blue-500 opacity-10 rounded-full -translate-x-1/2 -translate-y-1/2" />
       <div className="absolute top-0 right-0 w-56 h-56 bg-indigo-500 opacity-10 rounded-full translate-x-1/3 -translate-y-1/3" />

@@ -79,7 +79,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href="/#contact"
+                  href="/contact"
                   className="text-white hover:text-yellow-600 transition-colors"
                 >
                   Contact
@@ -175,7 +175,7 @@ const Navbar = () => {
               About Us
             </Link>
             <Link
-              href="/#contact"
+              href="/contact"
               className="block px-3 py-2 text-white hover:text-yellow-600 transition-colors rounded-md"
               onClick={toggleMenu}
             >

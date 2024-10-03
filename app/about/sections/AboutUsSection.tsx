@@ -4,7 +4,7 @@ import Link from "next/link";
 const AboutUsSection = () => {
   return (
     <section
-      className="bg-[#192966] py-16 px-4 min-h-screen flex items-center justify-center"
+      className="bg-[#fff] py-16 px-4 min-h-screen flex items-center justify-center"
       id="about-us"
     >
       <div className="max-w-4xl w-full">

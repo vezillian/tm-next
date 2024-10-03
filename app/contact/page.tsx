@@ -32,7 +32,7 @@ const Contact: FC = () => {
             <div className="space-y-8">
               <div>
                 <h1 className="text-3xl lg:text-4xl font-bold text-[#192966] mb-4">
-                  We're here to listen.
+                  We&#39;re here to listen.
                 </h1>
                 <h3 className="text-[#192966] text-xl">
                   Reach out to us via your preferred line.
